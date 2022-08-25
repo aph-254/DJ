@@ -6,6 +6,17 @@
 body{
 	background: rgb(24, 22, 22);
 }
+.top-btn img{
+	width: 30px;
+	background: blue;
+	margin-right: 20px;
+	float: right;
+}
+.top-btn {
+	text-decoration: none;
+	color: white;
+	float:right;
+}
 /*---------------------------Logo--------------------------------*/
 .logo img{
 	width: 70px;
@@ -142,8 +153,8 @@ button:hover {
 .projects .Samples .engineering-projects{
 	padding: 20px;
     text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
+    transform: translateY(0px);
+    opacity: 1;
     transition: .5s;
     cursor: pointer;
 }
@@ -157,7 +168,13 @@ button:hover {
 .engineering-projects p{
 	color: white;
 }
-
+/*------------------------------------Reach Me---------------*/
+.Reach {
+	padding: 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
 
 footer{
 	text-align: center;
